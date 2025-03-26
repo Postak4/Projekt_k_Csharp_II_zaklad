@@ -1,0 +1,14 @@
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\bin\Debug\net8.0\Projekt_k_Csharp_II_zaklad.exe
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\bin\Debug\net8.0\Projekt_k_Csharp_II_zaklad.deps.json
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\bin\Debug\net8.0\Projekt_k_Csharp_II_zaklad.runtimeconfig.json
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\bin\Debug\net8.0\Projekt_k_Csharp_II_zaklad.dll
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\bin\Debug\net8.0\Projekt_k_Csharp_II_zaklad.pdb
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.AssemblyInfoInputs.cache
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.AssemblyInfo.cs
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.csproj.CoreCompileInputs.cache
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.dll
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\refint\Projekt_k_Csharp_II_zaklad.dll
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.pdb
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.genruntimeconfig.cache
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\ref\Projekt_k_Csharp_II_zaklad.dll

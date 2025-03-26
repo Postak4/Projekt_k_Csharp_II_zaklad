@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\menupojistenych.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\menupojistenych.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\spravcepojistencu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\spravcepojistencu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\pojistenec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\pojistenec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 987,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Program.cs",
+              "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\Program.cs",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Program.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:42:42.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuPojistenych.cs",
+              "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
+              "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:30:53.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pojistenec.cs",
+              "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
+              "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T17:29:00.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpravcePojistencu.cs",
+              "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
+              "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:08:58.225Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
