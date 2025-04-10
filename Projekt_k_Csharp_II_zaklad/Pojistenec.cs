@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Projekt_k_Csharp_II_zaklad
 {
     /// <summary>
-    /// Třída Pojištěnec
+    /// Třída Pojištěnec - všechny vlastnosti jsou jen pro čtení {get;} hodnoty se nastavují jen v kontruktoru
     /// </summary>
     class Pojistenec
     {
@@ -32,13 +32,15 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Vypsání třídy Pojištěnec  
+        /// Vypsání třídy Pojištěnec - Formátuje jméno a přijmení, první písmeno velké ostatní malá.
+        /// Zarovnání pomocí string (interpolation) a šířky sloupců s rezervací na 15 mezer. Ošetření
+        /// prázdných řetězců pomocí string.IsNullOrWhiteSpace()
         /// </summary>
         /// <returns>Vrací Jméno, Přijmení, Věk, Telefon</returns>
         public override string ToString()
         {
             // {Jmeno.Substring(0,1).ToUpper()}{Jmeno.Substring(1).ToLower()} - my selhaval při prázdném řetězci
-            // použito: char.ToUpper() + Substring().. {Jmeno, -12} => -12 znamená zarovnání doleva s rezervací 12 mezer za jmenem
+            // použito: char.ToUpper() + Substring().. {Jmeno, -15} => -15 znamená zarovnání doleva s rezervací 15 mezer za jmenem
             string jmenoFormat = string.IsNullOrWhiteSpace(Jmeno) ? "" : char.ToUpper(Jmeno[0]) + Jmeno.Substring(1).ToLower();
             string prijmeniFormat = string.IsNullOrWhiteSpace(Prijmeni) ? "" : char.ToUpper(Prijmeni[0]) + Prijmeni.Substring(1).ToLower();
             

@@ -7,10 +7,20 @@ using System.Threading.Tasks;
 namespace Projekt_k_Csharp_II_zaklad
 {
     /// <summary>
-    /// Správce pojištěnců výpis do List<>
+    /// Správce pojištěnců výpis do List<Pojistenec>. Interní datová struktura 
+    /// umožňuje přidávat, vyhledávat a získávat pojištěnce. Vyhledání pomocí 
+    /// (LINQ) jména + příjmení, nebo přijmení, nebo telefonního čísla, bez ohledu
+    /// na velikost písmen (StringComparison.OrdinalIgnoreCase). Vrací se vždy
+    /// kopie seznamu, aby se původní seznam nemohl měnit zvenčí.
     /// </summary>
     class SpravcePojistencu
     {
+        /// <summary>
+        /// Pro jednoduchou implementaci používám List<Pojistenec> jako interní
+        /// datovou strukturu. Bez nutnosti indexace je List dostačující. Při 
+        /// nárůstu datové struktury, je na zvážení Dictionary, nebo DB. Také 
+        /// by volitelně šlo doplnit ukládání/načítání do/ze douboru, nebo DB.
+        /// </summary>
         private List<Pojistenec> pojistenci;
 
         /// <summary>
@@ -22,7 +32,7 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Metoda přidá pojištěnce se seznamu List<>
+        /// Metoda přidá pojištěnce se seznamu List<>.
         /// </summary>
         /// <param name="pojistenec"></param>
         public void PridatPojistence(Pojistenec pojistenec)
@@ -47,7 +57,7 @@ namespace Projekt_k_Csharp_II_zaklad
         /// <returns>Vrátí výsledek jako seznam (List<Pojistenec>)</returns>
         public List<Pojistenec> VyhledatPojistence(string jmeno, string prijmeni)
         {
-            // .Where použil jsem metodu Linq filtruje kolekci na základě podmínky
+            // .Where použil jsem metodu Linq filtruje kolekci na základě podmínky.
             // Lambda výraz p => určuje co chci nechat
             // equals porovnává jméno a přijmení bez ohlednu na velikost písmen
             // && oboje musí být současně. Výstup Where je IEnumerable. A ToList() převede na List

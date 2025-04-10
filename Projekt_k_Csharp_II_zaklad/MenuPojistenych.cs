@@ -11,7 +11,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace Projekt_k_Csharp_II_zaklad
 {
     /// <summary>
-    /// Menu pojištěných, interakce s uživatelem a validace
+    /// Menu pojištěných, interakce s uživatelem a validace přes konzoli. Zajišťuje
+    /// navigaci v menu a komunikuje se Správcem pojištěnců. Prování základní validaci
+    /// vstupních dat. Možnost rozšiřitelnosti pro další funkce.
     /// </summary>
     class MenuPojistenych
     {
@@ -28,7 +30,8 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Vykreslí hlavičku aplikace
+        /// Vykreslí hlavičku aplikace. Odpovídají za přehledné zobrazení 
+        /// prostředí pro uživatele. Obsahuje datum a čas spuštění aplikace.
         /// </summary>
         private void VykresliHlavicku()
         {
@@ -48,7 +51,8 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Vykreslí hlavní menu
+        /// Vykreslí hlavní menu. Obsahuje výběr akcí, které může uživatel provádět.
+        /// Menu je přehledné a strukturované a rozšiřitelné.
         /// </summary>
         private void VykresliHlavniMenu()
         {
@@ -63,7 +67,8 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Metoda která pustí menu pro výběr akce
+        /// Metoda která pustí menu pro výběr akce. Obsahuje hlevní smyčku aplikace
+        /// a přepíná mezi funkcemi podle volby uživatele. 
         /// </summary>
         public void SpustitMenu()
         {
@@ -106,7 +111,8 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Metoda přidává pojištěnce a komunikuje s uživatelem.
+        /// Metoda přidává pojištěnce a komunikuje s uživatelem. Postupně sbírá vstupy,
+        /// validuje je a po úspěchu volá spravce.PridatPojistence().
         /// </summary>
         private void PridatPojistence()
         {
@@ -147,7 +153,8 @@ namespace Projekt_k_Csharp_II_zaklad
                                 &&
                                ValidujVstupy(vstupniHodnoty[3], "telefon");
 
-                if (!platnyVstup && !ZnovuNeboZpet())     // Pokud jsou všechny vstupy platné, ukončíme smyčku
+                // Pokud jsou všechny vstupy platné, ukončíme smyčku
+                if (!platnyVstup && !ZnovuNeboZpet())
 
                     return;
             }
@@ -164,7 +171,12 @@ namespace Projekt_k_Csharp_II_zaklad
 
 
         /// <summary>
-        /// Metoda slouží pro validaci vstupů
+        /// Metoda slouží pro validaci vstupů. Ošetřuje vstupy pomocí REGEX a TryParse a zároveň
+        /// informuje o chybách. Validuje jméno, příjmení, věk a telefonní číslo. Vstupní data se
+        /// validují před vytvořením objektu Pojistenec.
+        /// !!!
+        /// V RÁMCI SRP BY MOHLA BÝT ROZDĚLENA DO JINÉ TŘÍDY, ALE PRO JEDNODUCHOST A PROTOŽE JE
+        /// APLIKACE JEDNODUCHÁ DAL JSEM VŠE DO TÉTO TŘÍDY.
         /// </summary>
         /// <param name="vstupy">Pole vstupních hodnot</param>
         /// <param name="typValidace">Určuje typ validace ("vek", "telefon", "prijmeni", "jmeno")</param>
@@ -187,7 +199,7 @@ namespace Projekt_k_Csharp_II_zaklad
                 return false;
             }
 
-            // kontrola věku nad 18 let (plnoletý) a do 120 let (nejstarší člověk má 112 let ;-))
+            // kontrola věku nad 18 let (plnoletý) a do 120 let (nejstarší člověk má 112 let ;-)).
             if (typValidace == "vek" && (!int.TryParse(vstup, out int vek) || vek < 18 || vek > 120))
             {
                 Console.WriteLine("\nVěk musí být číslo mezi 18 a 120 lety!");
@@ -206,7 +218,8 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Metoda pro zobrazení všech pojíštěnců
+        /// Metoda pro zobrazení všech pojíštěnců. Struktura výpisu se drží přehledného
+        /// rozložení. Obsahuje hlavičku a hlavní menu.
         /// </summary>
         private void ZobrazitVsechnyPojistence()
         {
@@ -236,7 +249,8 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Metoda hledající pojištěnce podle jména a přijmení
+        /// Metoda hledající pojištěnce podle jména a přijmení. Nabízí uživateli možnost
+        /// vyhledávání podle různých kritérií (jméno + přijmení, přijmení a telefonu).
         /// </summary>
         private void VyhledatPojistence()
         {
@@ -325,7 +339,8 @@ namespace Projekt_k_Csharp_II_zaklad
         }
 
         /// <summary>
-        /// Vykreslí výsledky hledání pojištěnců
+        /// Vykreslí výsledky hledání pojištěnců v přehledné tabulce, eventuelně informuje
+        /// o neúspěchu hledání. Lze se vrátit do menu, nebo opakovat hledání.
         /// </summary>
         private void VykresliVysledkyHledani(List<Pojistenec> pojistenci)
         {

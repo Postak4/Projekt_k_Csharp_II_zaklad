@@ -9,7 +9,7 @@
             | Evidence Pojištěných |
             ------------------------
             */
-            // Nastaví velikost okna dynamicky (šířka, výška)
+            // Nastaví velikost okna dynamicky (šířka, výška) s vyjímkou pro kompatibilitu
             try
             { 
                 Console.SetWindowSize(Math.Min(Console.LargestWindowWidth, 100), Math.Min(Console.LargestWindowHeight, 40));

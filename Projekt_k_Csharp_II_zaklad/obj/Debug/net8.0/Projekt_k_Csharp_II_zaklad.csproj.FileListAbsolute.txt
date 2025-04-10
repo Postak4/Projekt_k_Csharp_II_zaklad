@@ -12,3 +12,4 @@ C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_
 C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.pdb
 C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.genruntimeconfig.cache
 C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\ref\Projekt_k_Csharp_II_zaklad.dll
+C:\Users\Postak4\OneDrive\Dokumenty\CSharp\Projekt_k_Csharp_II_zaklad\Projekt_k_Csharp_II_zaklad\obj\Debug\net8.0\Projekt_k_Csharp_II_zaklad.sourcelink.json

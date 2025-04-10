@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projekt_k_Csharp_II_zaklad")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be5b176a1a4b819cce7b91f960afec3077bac73e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b066d665a07934dbbc47008bb8c783978cd3fed3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projekt_k_Csharp_II_zaklad")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projekt_k_Csharp_II_zaklad")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
