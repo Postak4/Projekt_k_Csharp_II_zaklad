@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\pojistenec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\pojistenec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\spravcepojistencu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\spravcepojistencu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|c:\\users\\postak4\\onedrive\\dokumenty\\csharp\\projekt_k_csharp_ii_zaklad\\projekt_k_csharp_ii_zaklad\\pojistenec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46AE6375-066C-42A2-8D60-2BD430700C45}|Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad.csproj|solutionrelative:projekt_k_csharp_ii_zaklad\\pojistenec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 987,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,13 +41,17 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Program.cs",
               "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\Program.cs",
-              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Program.cs*",
-              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\Program.cs*",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Program.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T17:42:42.152Z",
@@ -55,12 +59,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuPojistenych.cs",
               "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
               "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
-              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs*",
-              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs*",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\MenuPojistenych.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T17:30:53.423Z",
@@ -68,12 +72,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SpravcePojistencu.cs",
               "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
               "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
-              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs*",
-              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs*",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\SpravcePojistencu.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T19:08:58.225Z",
@@ -81,12 +85,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Pojistenec.cs",
               "DocumentMoniker": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
               "RelativeDocumentMoniker": "Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
-              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Pojistenec.cs*",
-              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\Pojistenec.cs*",
+              "ToolTip": "C:\\Users\\Postak4\\OneDrive\\Dokumenty\\CSharp\\Projekt_k_Csharp_II_zaklad\\Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
+              "RelativeToolTip": "Projekt_k_Csharp_II_zaklad\\Pojistenec.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T17:29:00.251Z",
